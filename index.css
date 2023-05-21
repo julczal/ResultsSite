@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    margin-bottom: 0;
+    text-align: center;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  
+  .item {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    margin-bottom: 0; 
+  }
+  
+  #pic1,
+  #pic2,
+  #pic3,
+  #pic4,
+  #pic5,
+  #pic6 {
+    height: 500px;
+    width: 500px;
+  }
+  
+  img {
+    object-fit: contain;
+    margin-right: 10px;
+  }
+  
